@@ -15,7 +15,6 @@ def add_anime_to_database(
         anime = Anime(**locals())
         session.add(anime)
         session.commit()
-
     return True
 
 
