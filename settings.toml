@@ -1,0 +1,4 @@
+NAME = "animelog"
+
+[database]
+url = "sqlite:///animelog.db"
